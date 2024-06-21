@@ -49,7 +49,7 @@ namespace forms_dentro_do_forms.forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(137, 8);
+            this.label2.Location = new System.Drawing.Point(137, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace forms_dentro_do_forms.forms
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(140, 30);
+            this.txtName.Location = new System.Drawing.Point(141, 45);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 26);
             this.txtName.TabIndex = 2;
@@ -66,7 +66,7 @@ namespace forms_dentro_do_forms.forms
             // txtTurno
             // 
             this.txtTurno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTurno.Location = new System.Drawing.Point(265, 30);
+            this.txtTurno.Location = new System.Drawing.Point(266, 45);
             this.txtTurno.Name = "txtTurno";
             this.txtTurno.Size = new System.Drawing.Size(100, 26);
             this.txtTurno.TabIndex = 4;
@@ -75,7 +75,7 @@ namespace forms_dentro_do_forms.forms
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(262, 8);
+            this.label1.Location = new System.Drawing.Point(262, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 20);
             this.label1.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace forms_dentro_do_forms.forms
             // numID
             // 
             this.numID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numID.Location = new System.Drawing.Point(61, 30);
+            this.numID.Location = new System.Drawing.Point(61, 45);
             this.numID.Name = "numID";
             this.numID.Size = new System.Drawing.Size(56, 26);
             this.numID.TabIndex = 5;
@@ -93,7 +93,7 @@ namespace forms_dentro_do_forms.forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(57, 8);
+            this.label3.Location = new System.Drawing.Point(47, 22);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(26, 20);
             this.label3.TabIndex = 6;
@@ -103,7 +103,7 @@ namespace forms_dentro_do_forms.forms
             // 
             this.checkActive.AutoSize = true;
             this.checkActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkActive.Location = new System.Drawing.Point(379, 31);
+            this.checkActive.Location = new System.Drawing.Point(381, 45);
             this.checkActive.Name = "checkActive";
             this.checkActive.Size = new System.Drawing.Size(63, 24);
             this.checkActive.TabIndex = 7;
@@ -113,7 +113,7 @@ namespace forms_dentro_do_forms.forms
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(675, 26);
+            this.btnSave.Location = new System.Drawing.Point(675, 40);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(88, 29);
             this.btnSave.TabIndex = 8;
@@ -134,7 +134,7 @@ namespace forms_dentro_do_forms.forms
             // btnDelet
             // 
             this.btnDelet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelet.Location = new System.Drawing.Point(461, 30);
+            this.btnDelet.Location = new System.Drawing.Point(461, 44);
             this.btnDelet.Name = "btnDelet";
             this.btnDelet.Size = new System.Drawing.Size(100, 25);
             this.btnDelet.TabIndex = 10;
@@ -145,7 +145,7 @@ namespace forms_dentro_do_forms.forms
             // btnClean
             // 
             this.btnClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClean.Location = new System.Drawing.Point(567, 27);
+            this.btnClean.Location = new System.Drawing.Point(567, 41);
             this.btnClean.Name = "btnClean";
             this.btnClean.Size = new System.Drawing.Size(91, 27);
             this.btnClean.TabIndex = 11;
@@ -156,7 +156,7 @@ namespace forms_dentro_do_forms.forms
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.Location = new System.Drawing.Point(672, 67);
+            this.btnEdit.Location = new System.Drawing.Point(672, 81);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(91, 27);
             this.btnEdit.TabIndex = 12;

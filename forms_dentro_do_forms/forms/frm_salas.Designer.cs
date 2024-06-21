@@ -53,7 +53,7 @@ namespace forms_dentro_do_forms
             // n_pc
             // 
             this.n_pc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n_pc.Location = new System.Drawing.Point(262, 53);
+            this.n_pc.Location = new System.Drawing.Point(261, 63);
             this.n_pc.Name = "n_pc";
             this.n_pc.Size = new System.Drawing.Size(92, 26);
             this.n_pc.TabIndex = 0;
@@ -61,7 +61,7 @@ namespace forms_dentro_do_forms
             // n_cadeira
             // 
             this.n_cadeira.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n_cadeira.Location = new System.Drawing.Point(391, 53);
+            this.n_cadeira.Location = new System.Drawing.Point(390, 63);
             this.n_cadeira.Name = "n_cadeira";
             this.n_cadeira.Size = new System.Drawing.Size(92, 26);
             this.n_cadeira.TabIndex = 4;
@@ -70,7 +70,7 @@ namespace forms_dentro_do_forms
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 32);
+            this.label1.Location = new System.Drawing.Point(30, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 20);
             this.label1.TabIndex = 5;
@@ -80,7 +80,7 @@ namespace forms_dentro_do_forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(106, 29);
+            this.label2.Location = new System.Drawing.Point(100, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 20);
             this.label2.TabIndex = 6;
@@ -90,7 +90,7 @@ namespace forms_dentro_do_forms
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(259, 29);
+            this.label4.Location = new System.Drawing.Point(253, 38);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 20);
             this.label4.TabIndex = 8;
@@ -100,7 +100,7 @@ namespace forms_dentro_do_forms
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(373, 29);
+            this.label5.Location = new System.Drawing.Point(367, 38);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(128, 20);
             this.label5.TabIndex = 9;
@@ -110,7 +110,7 @@ namespace forms_dentro_do_forms
             // 
             this.check_islab.AutoSize = true;
             this.check_islab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_islab.Location = new System.Drawing.Point(522, 52);
+            this.check_islab.Location = new System.Drawing.Point(505, 63);
             this.check_islab.Name = "check_islab";
             this.check_islab.Size = new System.Drawing.Size(144, 24);
             this.check_islab.TabIndex = 10;
@@ -121,7 +121,7 @@ namespace forms_dentro_do_forms
             // 
             this.check_disp.AutoSize = true;
             this.check_disp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_disp.Location = new System.Drawing.Point(674, 52);
+            this.check_disp.Location = new System.Drawing.Point(663, 60);
             this.check_disp.Name = "check_disp";
             this.check_disp.Size = new System.Drawing.Size(100, 24);
             this.check_disp.TabIndex = 11;
@@ -152,7 +152,7 @@ namespace forms_dentro_do_forms
             // txt_name
             // 
             this.txt_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_name.Location = new System.Drawing.Point(108, 53);
+            this.txt_name.Location = new System.Drawing.Point(107, 63);
             this.txt_name.Multiline = true;
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(117, 26);
@@ -172,9 +172,9 @@ namespace forms_dentro_do_forms
             // btn_Delet
             // 
             this.btn_Delet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Delet.Location = new System.Drawing.Point(539, 97);
+            this.btn_Delet.Location = new System.Drawing.Point(562, 97);
             this.btn_Delet.Name = "btn_Delet";
-            this.btn_Delet.Size = new System.Drawing.Size(118, 34);
+            this.btn_Delet.Size = new System.Drawing.Size(95, 34);
             this.btn_Delet.TabIndex = 16;
             this.btn_Delet.Text = "EXCLUIR";
             this.btn_Delet.UseVisualStyleBackColor = true;
@@ -194,7 +194,7 @@ namespace forms_dentro_do_forms
             // num_ID
             // 
             this.num_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_ID.Location = new System.Drawing.Point(40, 54);
+            this.num_ID.Location = new System.Drawing.Point(39, 64);
             this.num_ID.Name = "num_ID";
             this.num_ID.Size = new System.Drawing.Size(47, 26);
             this.num_ID.TabIndex = 18;
@@ -223,6 +223,7 @@ namespace forms_dentro_do_forms
             this.Name = "frm_salas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formulário de salas";
+            this.Load += new System.EventHandler(this.frm_salas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.n_pc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.n_cadeira)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Grid_salas)).EndInit();

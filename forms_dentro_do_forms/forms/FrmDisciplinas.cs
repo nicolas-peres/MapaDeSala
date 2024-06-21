@@ -25,9 +25,9 @@ namespace forms_dentro_do_forms.forms
                 dados.Columns.Add(atributos.Name);
             }
 
-            dados.Rows.Add(1, "matemática", "mat", true);
-            dados.Rows.Add(2, "portugues", "port", true);
-            dados.Rows.Add(3, "geografia", "geo", true);
+            dados.Rows.Add(1, "Desenvolvimento de sistemas", "ds", true);
+            dados.Rows.Add(2, "portugues", "LP", true);
+            dados.Rows.Add(3, "Matemática", "mat", true);
 
             gridDisciplina.DataSource = dados;
         }

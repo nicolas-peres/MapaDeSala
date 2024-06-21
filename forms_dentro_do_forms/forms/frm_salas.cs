@@ -24,9 +24,9 @@ namespace forms_dentro_do_forms
                 dados.Columns.Add(atributos.Name);
             }
 
-            dados.Rows.Add(1, "sala 23", 18, 37, true, true);
-            dados.Rows.Add(2, "sala 25", 20, 35, false, false);
-            dados.Rows.Add(3, "sala 13", 0, 38, true, true);
+            dados.Rows.Add(1, "sala 15", 20, 37, true, true);
+            dados.Rows.Add(2, "sala 23", 0, 40, false, true);
+            dados.Rows.Add(3, "sala 18", 20, 38, true, true);
 
             Grid_salas.DataSource = dados;
         }
@@ -52,7 +52,7 @@ namespace forms_dentro_do_forms
             //txt_name.Text = "";
             //txt_id.Text = Convert.ToString(txt_id.Text);
             //txt_id.Text = "";
-            //check_disp.Checked = false;           // pra "pegar" um valor eu nao preciso criar ele, basta chamar desse jeito ← ( ↑  a gente ta criando os valores e jogando eles em variaveis, pra pegar os campos do input)
+            //check_disp.Checked = false;         
             //check_islab.Checked = false;
             //n_cadeira.Value = 0;
             //n_pc.Value = 0;
@@ -94,6 +94,11 @@ namespace forms_dentro_do_forms
             n_cadeira.Value = Convert.ToInt32(Grid_salas.Rows[LinhaS].Cells[3].Value);
             check_islab.Checked = Convert.ToBoolean(Grid_salas.Rows[LinhaS].Cells[4].Value);
             check_disp.Checked = Convert.ToBoolean(Grid_salas.Rows[LinhaS].Cells[5].Value);
+
+        }
+
+        private void frm_salas_Load(object sender, EventArgs e)
+        {
 
         }
     }

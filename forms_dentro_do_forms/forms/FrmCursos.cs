@@ -27,8 +27,8 @@ namespace forms_dentro_do_forms.forms
             }
 
             dados.Rows.Add(1, "Desenvolvimento de Sistemas", "Integral", true);
-            dados.Rows.Add(2, "Itinerário Formativo", "Manhã", true);
-            dados.Rows.Add(3, "Administração", "Integral", true);
+            dados.Rows.Add(2, "Administração", "Integral", true);
+            dados.Rows.Add(3, "Itinerário Formativo", "Manhã", true);
 
             cursosGrid.DataSource = dados;
         }
