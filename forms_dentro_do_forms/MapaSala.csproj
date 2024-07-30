@@ -88,6 +88,7 @@
     <Compile Include="forms\frm_salas.Designer.cs">
       <DependentUpon>frm_salas.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\professorDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="forms\home.cs">
@@ -144,12 +145,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gatotot.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\gaototaot.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{5E473F82-BE03-4892-9115-19B395043F5A}</Project>
       <Name>Model</Name>
@@ -159,7 +154,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Black-cat-face-yellow-eyes-darkness_3840x2160.jpg" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
