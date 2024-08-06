@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MapaSala.DAO;
 using Model.entidades;
 
 
@@ -31,7 +32,7 @@ namespace forms_dentro_do_forms.forms
             dados.Rows.Add(2, "Lucilene", "lucil");
             dados.Rows.Add(3, "Rafael", "Rafa");
 
-            gridProfessor.DataSource = dados;
+           
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -41,8 +42,13 @@ namespace forms_dentro_do_forms.forms
             professor.Nome = txtName.Text;
             professor.Apelido = txtNickname.Text;
 
-            dados.Rows.Add(professor.Linha());
+            ProfessorDAO dao = new ProfessorDAO();
+            dao.Inserir(professor);
+
+            gridProfessor.DataSource = dao.ObterProfessor();
+
             LimparDados();
+            
         }
 
 

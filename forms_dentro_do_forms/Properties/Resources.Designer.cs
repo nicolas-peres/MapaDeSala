@@ -59,35 +59,5 @@ namespace forms_dentro_do_forms.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Black_cat_face_yellow_eyes_darkness_3840x2160 {
-            get {
-                object obj = ResourceManager.GetObject("Black-cat-face-yellow-eyes-darkness_3840x2160", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap gaototaot {
-            get {
-                object obj = ResourceManager.GetObject("gaototaot", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap gatotot {
-            get {
-                object obj = ResourceManager.GetObject("gatotot", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
